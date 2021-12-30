@@ -1,6 +1,6 @@
 # Generate a Colorful Icon Background
 
-A JSON file is used to generate an SVG full of svg icons randomly positioned between 0 and 100vw. 
+A JSON file is used to generate a single svg element full of svg icons randomly positioned between 0 and 100vw spanning the entire height of the page (or whatever dimensions you define). 
 If no such JSON file exists, then the controller will attempt to generate one using all .svg files within the requested directory before the page loads.
 Every icon is then given a color value depending on where they fall radially from the center of the page.
 
