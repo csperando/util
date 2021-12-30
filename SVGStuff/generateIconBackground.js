@@ -46,7 +46,11 @@ function generateIconBackground() {
 				}
 
 				svgString += "</svg>";
-				target.innerHTML = svgString;
+				if(target.innerHTML == "") {
+					target.innerHTML = svgString;
+				} else {
+ 					//console.log("occupied");	
+				}
 
 			} else {
 				console.error("xml error");
