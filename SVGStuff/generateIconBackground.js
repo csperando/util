@@ -54,7 +54,7 @@ function generateIconBackground() {
 		}
 	};
 
-	xmlhttp.open("GET", "/images/icons/icons.json", true);
+	xmlhttp.open("GET", "/util/images/icons/icons.json", true);
 	xmlhttp.send();
 
 } // end generate background
