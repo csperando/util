@@ -6,7 +6,7 @@ Every icon is then given a color value depending on where they fall radially fro
 
 [Preview Here](https://csperando.github.io/util/SVGStuff/)
 
-## Dependencies
+## Required
 
 * A meta viewport tag is required in the head
 * A directory containing the JSON or the svg files themselves
