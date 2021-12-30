@@ -4,6 +4,8 @@ A JSON file is used to generate an SVG full of svg icons randomly positioned bet
 If no such JSON file exists, then the controller will attempt to generate one using all .svg files within the requested directory before the page loads.
 Every icon is then given a color value depending on where they fall radially from the center of the page.
 
+[Preview Here](https://csperando.github.io/util/SVGStuff/)
+
 ## Dependencies
 
 * A meta viewport tag is required in the head
