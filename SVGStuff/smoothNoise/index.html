@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <title>Smooth Noise Function SVG</title>
+        <meta name="description" content="demo of a cosine smoothed noise function implemented as an svg using javascript"/>
+    </head>
+
+    <body>
+        <style>
+            .graph-wrap {
+                height: 300px;
+                width: 900px;
+                border: 1px solid blue;
+                overflow: hidden;
+            }
+
+            .img-title {
+                position: absolute;
+                top: 20px;
+                left: 20px;
+                line-height: 30px;
+                padding: 10px;
+                border-radius: 3px;
+                border: 1px solid grey;
+            }
+
+            .svg-path {
+                position: relative;
+                animation-name: svg-path;
+                animation-duration: 30s;
+                animation-timing-function: linear;
+                animation-iteration-count: infinite;
+            }
+
+            @keyframes svg-path {
+                50% {transform: translateX(-100%);}
+                100% {transform: translateX(0%);}
+            }
+        </style>
+
+        <main>
+
+            <section>
+
+                <div class="graph-wrap" id="insert-svg">
+                    <svg alt="" stroke="red" fill="none" width="900px" height="300px"><path class="svg-path" id="svg-path"></path></svg>
+                    <p class="img-title"><a href="">View Docs</a></p>
+                </div>
+
+            </section>
+
+        </main>
+
+        <script src="smoothNoise.js"></script>
+    </body>
