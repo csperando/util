@@ -1,0 +1,50 @@
+<svg id="GEARS" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 486.12 411.57">
+    <defs>
+        <style>
+            .cls-1{fill:#fff;}
+
+            .svg-gear-1 {
+                transform-origin: 30.9% 36.4%;
+                animation: clockwise 3s linear infinite;
+            }
+
+            .svg-gear-2 {
+                transform-origin: 75.3% 70.8%;
+                animation: counterClockwise 3s linear infinite;
+            }
+
+            @keyframes clockwise {
+                from { transform: rotate(0deg); }
+                to { transform: rotate(360deg); }
+            }
+
+            @keyframes counterClockwise {
+                from { transform: rotate(0deg); }
+                to { transform: rotate(-360deg); }
+            }
+
+
+        </style>
+    </defs>
+
+    <g id="GEAR_1" data-name="GEAR 1">
+        <g id="pegs" class="svg-gear-1">
+            <rect x="125" width="50" height="300"/>
+            <rect x="131.94" y="44.22" width="50" height="300" transform="translate(-98.31 123.64) rotate(-45)"/>
+            <rect x="131.94" y="44.22" width="50" height="300" transform="translate(-44.22 306.94) rotate(-90)"/><rect x="131.94" y="44.22" width="50" height="300" transform="translate(123.64 398.31) rotate(-135)"/>
+        </g>
+        <circle cx="150" cy="150" r="112.5"/>
+        <circle class="cls-1" cx="150" cy="150" r="84.38"/>
+    </g>
+
+    <g id="GEAR_1-2" data-name="GEAR 1">
+        <g id="pegs-2" data-name="pegs" class="svg-gear-2">
+            <rect x="346.12" y="171.57" width="40" height="240"/>
+            <rect x="353.06" y="215.78" width="40" height="240" transform="translate(-135.11 317.93) rotate(-45)"/>
+            <rect x="353.06" y="215.78" width="40" height="240" transform="translate(30.34 664.63) rotate(-90)"/>
+            <rect x="353.06" y="215.78" width="40" height="240" transform="translate(392.48 792.8) rotate(-135)"/>
+        </g>
+        <circle cx="366.12" cy="291.57" r="90"/>
+        <circle class="cls-1" cx="366.12" cy="291.57" r="67.5"/>
+    </g>
+</svg>
