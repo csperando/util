@@ -13,8 +13,11 @@
     <body>
         <style>
             .graph-wrap {
-                height: 300px;
-                width: 900px;
+                position: absolute;
+                left: 0;
+                top: 0;
+                height: 100vh;
+                width: 100vw;
                 border: 1px solid blue;
                 overflow: hidden;
             }
@@ -43,18 +46,12 @@
             }
         </style>
 
-        <main>
-
-            <section>
-
-                <div class="graph-wrap" id="insert-svg">
-                    <svg alt="" stroke="red" fill="none" width="900px" height="300px"><path class="svg-path" id="svg-path"></path></svg>
-                    <p class="img-title"><a href="https://github.com/csperando/util/tree/main/SVGStuff/smoothNoise">View Docs</a></p>
-                </div>
-
-            </section>
-
-        </main>
+        <div class="graph-wrap" id="insert-svg">
+            <svg alt="" stroke="none" fill="blue" width="100vw" height="100vh">
+                <path class="svg-path" id="svg-path"></path>
+            </svg>
+            <p class="img-title"><a href="https://github.com/csperando/util/tree/main/SVGStuff/smoothNoise">View Docs</a></p>
+        </div>
 
         <script src="smoothNoise.js"></script>
     </body>
